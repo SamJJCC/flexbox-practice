@@ -1,0 +1,64 @@
+/* 
+TODO: Add styles to match the layout in the image.
+Note: you should only need to use flexbox properties and margin/padding to create the layout.
+*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem;
+}
+
+nav{
+    display:flex;
+   justify-content: space-between;
+    
+}
+.nav-link{
+    margin:1rem;
+}
+ .card {
+    align-items: center;
+   display:flex;
+   flex-direction:column ;
+   margin:30px
+
+ }
+.card-container{
+    display:flex;
+    justify-content:space-between;
+   
+  
+}
+.features{
+    display:flex;
+    margin: 30px;
+}
+
+.feature-item{
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+   
+}
+
+.footer-content{
+    display: flex;
+   
+    
+}
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    margin:1.5rem;
+}
+.social-links a{
+    margin-right: 1rem;
+}
+/* 
+Challenge: Use flexbox in media queries to create a responsive layout 
+*/
+
+
